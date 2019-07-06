@@ -13,4 +13,5 @@ df_hitters = df_hitters.drop(columns=df_hitters.columns[0])
 # encode categorical features
 
 
+df = pd.get_dummies(df_hitters)
 
