@@ -27,11 +27,7 @@ models = FS.forward_select(X, y)
 
 #We no choose the best model in models
 
-# for i in range(len(X.columns)):
-#     name = 'Card' +str(i)
-# print (X.columns)
 
-# calculate all subsets
 
 def get_new_subset(subsets, X):
 
