@@ -1,7 +1,7 @@
 import pandas as pd
 
 
-df_hitters = pd.read_csv('/Users/Caddi/Data/Hitters/Hitters.csv')
+df_hitters = pd.read_csv('Hitters.csv')
 
 # drop the rows with missing value in Salary
 
