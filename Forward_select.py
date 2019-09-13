@@ -87,12 +87,12 @@ def best_subset_linear(all_subsets):
     for size in range(len(all_subsets)):
         results = {}
         for subset in all_subsets[size]:
-            X_model = X[*subset]
+            X_model = X[subset]
             reg = LinearRegression().fit(X_model, y)
             RSS = ((reg.predict(X_model) - y) ** 2).sum()
             results[subset] = (reg, RSS)
         size_winner = choose_best(results)
-            winner_list[size+1]=(subset,(reg, RSS))
+        winner_list[size+1]=(size_winner,results[size_winner])
 
 
 

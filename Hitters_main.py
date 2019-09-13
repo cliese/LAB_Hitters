@@ -78,12 +78,6 @@ def check_end(subsets, columns):
 
 
 
-X_test = X.columns[0:5]
-print(X_test)
-temp=get_all_subsets(X_test)
-print(temp[0])
-print(temp[1])
-print(temp[2])
-print(temp[3])
-print(temp[4])
+X_test = X.columns
+print(len(X_test))
 

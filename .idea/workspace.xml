@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40b64900-4e43-474e-ba51-9a8b31e5c477" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/LAB_Hitters.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LAB_Hitters.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Data_prep.py" beforeDir="false" afterPath="$PROJECT_DIR$/Data_prep.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Forward_select.py" beforeDir="false" afterPath="$PROJECT_DIR$/Forward_select.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Hitters_main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Hitters_main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -39,6 +39,12 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
@@ -148,6 +154,9 @@
       <module name="LAB_Hitters" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
@@ -187,6 +196,7 @@
       <workItem from="1563782417839" duration="18682000" />
       <workItem from="1564771554516" duration="1045000" />
       <workItem from="1567427518229" duration="15872000" />
+      <workItem from="1568363116090" duration="3385000" />
     </task>
     <task id="LOCAL-00001" summary="finished data prep">
       <created>1562405739678</created>
